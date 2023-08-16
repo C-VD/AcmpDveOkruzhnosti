@@ -27,7 +27,7 @@ public class Model {
     public static boolean isOverlay(int x1, int y1, int r1, int x2, int y2, int r2){
         return Math.abs((x2 - x1) + (y2 - y1)) < r1 + r2;
     }
-    
+
     static Scanner getInputTxtScanner(){
         // Just for ACMP
         String inputFileName = "INPUT.TXT";
